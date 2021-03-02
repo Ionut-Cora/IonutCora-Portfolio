@@ -1,0 +1,234 @@
+
+/* colors */
+
+/* gold: #F7D330;
+red: #DB1F48;
+baby-blue: #004369;
+lime-green: #81B622; */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+}
+
+/* animations */
+
+.fadeInAnimationFromRight {
+    display: block;
+    animation-duration: 5s;
+    animation-name: slideInFromRight;
+}
+
+.fadeInAnimationFromLeft {
+    display: block;
+    animation-duration: 5s;
+    animation-name: slideInFromLeft;
+}
+
+@keyframes slideInFromRight {
+    from {
+        margin-left: 100%;
+        width: 100%;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+@keyframes slideInFromLeft {
+    from {
+        margin-right: 0%;
+        width: 50%;
+    }
+    to {
+        margin-left: 25%;
+        width: 50%;
+    }
+}
+
+.fadeInAnimationFromRightAbout {
+    display: block;
+    animation-duration: 5s;
+    animation-name: slideInFromRightAbout;
+}
+
+@keyframes slideInFromRightAbout {
+    from {
+        margin-left: 100%;
+        width: 100%;
+    }
+    to {
+        margin-left: 3.6%;
+        width: 100%;
+    }
+}
+
+/* navbar */
+
+.navbar-brand {
+    font-family: 'Dancing Script', cursive;
+}
+
+#brand-modified {
+    font-size: 1.5rem;
+    color: #F7D330;
+}
+
+.nav-link {
+    cursor: pointer;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #fff;
+}
+
+/* header */
+
+header {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(images/header.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/header.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+header h1 {
+    padding-top: 20%;
+}
+
+header h1,
+header h2 {
+    display: none;
+    font-size: 4rem;
+    color: #fff;
+}
+
+header span {
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+    color: #F7D330;
+}
+
+/* section about */
+
+#about-title {
+    background-color: #F7D330;
+}
+
+#about-title h2 {
+    font-size: 2.5rem;
+    color: #071330;
+}
+
+#about-title p {
+    font-size: 1.3rem;
+    color: #071330;
+}
+
+#about-description {
+    background-color: #343A40;
+}
+
+#about-description span {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    color: #3AA3A0;
+}
+
+#about-description h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#about-description p {
+    font-size: 1.3rem;
+}
+
+#about-description h3,
+#about-description h4,
+#about-description p {
+    color: #fff;
+}
+
+#skills {
+    list-style-type: none;
+}
+
+.my-skills {
+    background-color: #F7D330;
+}
+
+/* section portfolio */
+
+#portfolio {
+    background-color: #343A40;
+}
+
+#portfolio h2 {
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+#portfolio h3 {
+    color: #fff;
+}
+
+#portfolio .portfolio-button {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #fff;
+}
+
+
+/* section contact */
+
+#contact {
+    background-color: #F7D330;
+}
+
+.contact ul {
+    list-style: none;
+}
+
+.contact a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #000;
+    
+}
+
+.contact h2 {
+    font-size: 2rem;
+}
+
+ion-icon {
+    font-size: 2.5rem;
+    
+}
+
+/* footer */
+
+.footer-modified {
+    color: #F7D330;
+}
+
+/* responsive */
+
+@media only screen and (max-width: 600px) {
+    #first-head,
+    #second-head,
+    #first-head span,
+    #second-head span {
+        font-size: 2rem;
+    }
+
+    .project-images {
+        width: 50%;
+    }
+}
