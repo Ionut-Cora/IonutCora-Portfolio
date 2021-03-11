@@ -1,40 +1,40 @@
 
 // header text fadeIn
 
-const firstHead = document.querySelector('#first-head');
-const secondHead = document.querySelector('#second-head');
+// const firstHead = document.querySelector('#first-head');
+// const secondHead = document.querySelector('#second-head');
 
-window.addEventListener('load', function() {
-    firstHead.classList.add('fadeInAnimationFromLeft');
-    secondHead.classList.add('fadeInAnimationFromRight');
-});
+// window.addEventListener('load', function() {
+//     firstHead.classList.add('fadeInAnimationFromLeft');
+//     secondHead.classList.add('fadeInAnimationFromRight');
+// });
 
 // about me title fadeIn
 
-const firstAbout = document.querySelector('#first-about');
-const secondAbout = document.querySelector('#second-about');
+// const firstAbout = document.querySelector('#first-about');
+// const secondAbout = document.querySelector('#second-about');
 
-window.addEventListener('scroll', function() {
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-        firstAbout.classList.add('fadeInAnimationFromLeft');
-        secondAbout.classList.add('fadeInAnimationFromRight');
-    } else {
-        firstAbout.classList.remove('fadeInAnimationFromLeft');
-        secondAbout.classList.remove('fadeInAnimationFromRight');
-    }
-});
+// window.addEventListener('scroll', function() {
+//     if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+//         firstAbout.classList.add('fadeInAnimationFromLeft');
+//         secondAbout.classList.add('fadeInAnimationFromRight');
+//     } else {
+//         firstAbout.classList.remove('fadeInAnimationFromLeft');
+//         secondAbout.classList.remove('fadeInAnimationFromRight');
+//     }
+// });
 
 // about me description fadeIn
 
-const description = document.querySelector('.my-description');
+// const description = document.querySelector('.my-description');
 
-window.addEventListener('scroll', function() {
-    if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250) {
-        description.classList.add('fadeInAnimationFromRightAbout');
-    } else {
-        description.classList.remove('fadeInAnimationFromRightAbout');
-    }
-});
+// window.addEventListener('scroll', function() {
+//     if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250) {
+//         description.classList.add('fadeInAnimationFromRightAbout');
+//     } else {
+//         description.classList.remove('fadeInAnimationFromRightAbout');
+//     }
+// });
 
 // themes
 
