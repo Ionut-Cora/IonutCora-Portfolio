@@ -104,7 +104,6 @@ header h1 {
 
 header h1,
 header h2 {
-    display: none;
     font-size: 4rem;
     color: #fff;
 }
@@ -224,6 +223,10 @@ ion-icon {
 /* responsive */
 
 @media only screen and (max-width: 600px) {
+    #header h1 {
+        padding-top: 80%;
+    }
+
     #first-head,
     #second-head,
     #first-head span,
@@ -233,5 +236,9 @@ ion-icon {
 
     .project-images {
         width: 50%;
+    }
+
+    #contact li {
+        padding: 10px;
     }
 }
