@@ -27,15 +27,12 @@ window.addEventListener('scroll', function() {
 // about me description fadeIn
 
 const description = document.querySelector('.my-description');
-// const skills = document.querySelector('.my-skills');
 
 window.addEventListener('scroll', function() {
     if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250) {
         description.classList.add('fadeInAnimationFromRightAbout');
-        // skills.classList.add('fadeInAnimationFromLeft');
     } else {
         description.classList.remove('fadeInAnimationFromRightAbout');
-        // skills.classList.remove('fadeInAnimationFromLeft');
     }
 });
 
@@ -72,10 +69,8 @@ const descriptionEnd = document.querySelector('#description-end');
 const portfolioBackground = document.querySelector('#portfolio');
 const portfolioTitle = document.querySelector('#portfolio-title');
 const korlakeProject = document.querySelector('#korlake-project');
-const korlakeSite = document.querySelector('#korlake-site');
 const korlakeGithub = document.querySelector('#korlake-github');
 const healthyProject = document.querySelector('#healthy-project');
-const healthySite = document.querySelector('#healthy-site');
 const healthyGithub = document.querySelector('#healthy-github');
 // footer
 const footer = document.querySelector('footer');
@@ -144,10 +139,8 @@ lightButton.addEventListener('click', () => {
     portfolioBackground.style.backgroundColor = '#F8F9FA';
     portfolioTitle.style.color = '#000';
     korlakeProject.style.color = '#000';
-    korlakeSite.style.color = '#000';
     korlakeGithub.style.color = '#000';
     healthyProject.style.color = '#000';
-    healthySite.style.color = '#000';
     healthyGithub.style.color = '#000';
 
     header.style.backgroundImage = 'linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./css/images/header.jpg)';
@@ -178,10 +171,8 @@ darkButton.addEventListener('click', () => {
     portfolioBackground.style.backgroundColor = '#343A40';
     portfolioTitle.style.color = '#fff';
     korlakeProject.style.color = '#fff';
-    korlakeSite.style.color = '#fff';
     korlakeGithub.style.color = '#fff';
     healthyProject.style.color = '#fff';
-    healthySite.style.color = '#fff';
     healthyGithub.style.color = '#fff';
 
     header.style.backgroundImage = 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./css/images/header.jpg)';
