@@ -36,6 +36,7 @@
 //     }
 // });
 
+
 // themes
 
 const goldButton = document.querySelector('#gold-theme');
@@ -51,6 +52,7 @@ const themes = document.querySelector('#themes');
 const navbar = document.querySelector('nav');
 // header
 const header = document.querySelector('#header');
+const workButton =document.querySelector('#work-button');
 // about-title
 const aboutBackground = document.querySelector('#about-title');
 // contact
@@ -80,6 +82,7 @@ goldButton.addEventListener('click', () => {
     brand.style.color = '#F7D330';
     headerName.style.color = '#F7D330';
     headerJob.style.color = '#F7D330';
+    workButton.style.backgroundColor = '#F7D330';
     aboutBackground.style.backgroundColor = '#F7D330';
     skillsBackground.style.backgroundColor = '#F7D330';
     contactBackground.style.backgroundColor = '#F7D330';
@@ -90,6 +93,7 @@ redButton.addEventListener('click', () => {
     brand.style.color = '#DB1F48';
     headerName.style.color = '#DB1F48';
     headerJob.style.color = '#DB1F48';
+    workButton.style.backgroundColor = '#DB1F48';
     aboutBackground.style.backgroundColor = '#DB1F48';
     skillsBackground.style.backgroundColor = '#DB1F48';
     contactBackground.style.backgroundColor = '#DB1F48';
@@ -100,6 +104,7 @@ blueButton.addEventListener('click', () => {
     brand.style.color = '#B1D4E0';
     headerName.style.color = '#B1D4E0';
     headerJob.style.color = '#B1D4E0';
+    workButton.style.backgroundColor = '#B1D4E0';
     aboutBackground.style.backgroundColor = '#B1D4E0';
     skillsBackground.style.backgroundColor = '#B1D4E0';
     contactBackground.style.backgroundColor = '#B1D4E0';
@@ -110,6 +115,7 @@ greenButton.addEventListener('click', () => {
     brand.style.color = '#81B622';
     headerName.style.color = '#81B622';
     headerJob.style.color = '#81B622';
+    workButton.style.backgroundColor = '#81B622';
     aboutBackground.style.backgroundColor = '#81B622';
     skillsBackground.style.backgroundColor = '#81B622';
     contactBackground.style.backgroundColor = '#81B622';

@@ -99,7 +99,7 @@ header {
 }
 
 header h1 {
-    padding-top: 20%;
+    padding-top: 15%;
 }
 
 header h1,
@@ -108,10 +108,35 @@ header h2 {
     color: #fff;
 }
 
-header span {
+header #header-name,
+header #header-job {
+
     font-family: 'Dancing Script', cursive;
     font-size: 4rem;
     color: #F7D330;
+}
+
+#work-button-div {
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+}
+
+#work-button-div a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 20%;
+    height: 3rem;
+    border-radius: 5px;
+    background-color: #F7D330;
+    color: #000;
+    border: 0;
+}
+
+#work-button-div a:hover {
+    background-color: #f6cb09;
 }
 
 /* section about */
@@ -214,6 +239,20 @@ ion-icon {
     
 }
 
+#up-button-div {
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}
+
+#up-button-div a {
+    color: #000;
+}
+
+#up-button-div a:hover {
+    color: #343A40;
+}
+
 /* footer */
 
 .footer-modified {
@@ -224,7 +263,7 @@ ion-icon {
 
 @media only screen and (max-width: 600px) {
     #header h1 {
-        padding-top: 80%;
+        padding-top: 48%;
     }
 
     #first-head,
@@ -232,6 +271,11 @@ ion-icon {
     #first-head span,
     #second-head span {
         font-size: 2rem;
+    }
+
+    #work-button-div a {
+        width: 50%;
+        height: 3rem;
     }
 
     .project-images {
